@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="my suite 1" duration-ms="100935" started-at="2015-10-26T14:16:40Z" finished-at="2015-10-26T14:18:21Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="100935" started-at="2015-10-26T14:16:40Z" finished-at="2015-10-26T14:18:21Z">
+      <class name="testcases.LogIn">
+        <test-method status="PASS" signature="BefMethod()[pri:0, instance:testcases.LogIn@1741d6d]" name="BefMethod" is-config="true" duration-ms="5841" started-at="2015-10-26T19:46:47Z" finished-at="2015-10-26T19:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefMethod -->
+        <test-method status="PASS" signature="atTest()[pri:0, instance:testcases.LogIn@1741d6d]" name="atTest" duration-ms="15090" started-at="2015-10-26T19:46:53Z" finished-at="2015-10-26T19:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atTest -->
+        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:testcases.LogIn@1741d6d]" name="QuitDriver" is-config="true" duration-ms="552" started-at="2015-10-26T19:47:08Z" finished-at="2015-10-26T19:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- testcases.LogIn -->
+      <class name="testcases.PrintDropdownList">
+        <test-method status="PASS" signature="BefMethod()[pri:0, instance:testcases.PrintDropdownList@4baf4a]" name="BefMethod" is-config="true" duration-ms="7075" started-at="2015-10-26T19:46:40Z" finished-at="2015-10-26T19:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefMethod -->
+        <test-method status="PASS" signature="UnderTest()[pri:0, instance:testcases.PrintDropdownList@4baf4a]" name="UnderTest" duration-ms="475" started-at="2015-10-26T19:47:09Z" finished-at="2015-10-26T19:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:testcases.PrintDropdownList@4baf4a]" name="QuitDriver" is-config="true" duration-ms="315" started-at="2015-10-26T19:48:21Z" finished-at="2015-10-26T19:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- testcases.PrintDropdownList -->
+      <class name="testcases.AssertExample">
+        <test-method status="PASS" signature="BefMethod()[pri:0, instance:testcases.AssertExample@ae8e6e]" name="BefMethod" is-config="true" duration-ms="61096" started-at="2015-10-26T19:47:09Z" finished-at="2015-10-26T19:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefMethod -->
+        <test-method status="PASS" signature="testAssert()[pri:0, instance:testcases.AssertExample@ae8e6e]" name="testAssert" duration-ms="10082" started-at="2015-10-26T19:48:10Z" finished-at="2015-10-26T19:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssert -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testcases.AssertExample@ae8e6e]" name="quitDriver" is-config="true" duration-ms="391" started-at="2015-10-26T19:48:21Z" finished-at="2015-10-26T19:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testcases.AssertExample -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- my suite 1 -->
+</testng-results>
